@@ -46,7 +46,17 @@ if st.button("Predict Survival"):
     prediction = model.predict(input_data)[0]
     probability = model.predict_proba(input_data)[0]
 
+    not_survived_prob = probability[0]
+    survived_prob = probability[1]
+
+    st.subheader("Prediction Result")
+
     if prediction == 1:
-        st.success(f"Passenger likely survived. Probability: {probability[1]:.2%}")
+        st.success("Passenger likely survived.")
     else:
-        st.error(f"Passenger likely did not survive. Probability: {probability[0]:.2%}")
+        st.error("Passenger likely did not survive.")
+
+    st.write(f"Survived probability: **{survived_prob:.2%}**")
+    st.write(f"Not survived probability: **{not_survived_prob:.2%}**")
+
+    st.caption("Prediction based on a trained Random Forest model.")
