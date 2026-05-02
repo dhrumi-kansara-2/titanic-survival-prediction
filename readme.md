@@ -139,6 +139,8 @@ pip install -r requirements.txt
 streamlit run app/app.py
 ```
 
+## Application Preview
+![App Screenshot](images/app.png)
 
 # Conclusion
 
