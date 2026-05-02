@@ -140,7 +140,7 @@ streamlit run app/app.py
 ```
 
 ## Application Preview
-![App Screenshot](images/app.png)
+<img src="images/app.png" width="700">
 
 # Conclusion
 
