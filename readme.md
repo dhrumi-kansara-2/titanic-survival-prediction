@@ -134,7 +134,10 @@ A Streamlit web application was built to allow users to input passenger details 
 ```bash
 pip install -r requirements.txt
 ```
-
+3. Run the application:
+```
+streamlit run app/app.py
+```
 
 
 # Conclusion
