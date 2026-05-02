@@ -140,7 +140,7 @@ streamlit run app/app.py
 ```
 
 ## Application Preview
-<img src="https://raw.githubusercontent.com/dhrumi-kansara-2/titanic-survival-prediction/main/images/app.png" width="700">
+<img src="images/app.PNG" width="700">
 
 # Conclusion
 
